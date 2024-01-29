@@ -17,23 +17,23 @@ code {
 .feedback-options-container {
   box-shadow: 2px 2px 2px gray;
   border-radius: 16px;
-  background-color: white;
+  background-color: rgb(245, 246, 247);
   padding: 20px;
   width: 400px;
   margin: 0 auto;
 }
 
 .button-style {
-  background-color: #6c6d91;
-  color: white;
-  padding: 10px;
+  background-color: #e2e2eb;
+  color: rgb(7, 7, 7);
   border: none;
   cursor: pointer;
-  border: 2px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   height: 32px;
   width: 60px;
-  border-radius: 16px;
+  border-radius: 5px;
   margin-right: 8px;
+  text-align: center;
 }
 
 .button-style:hover {
