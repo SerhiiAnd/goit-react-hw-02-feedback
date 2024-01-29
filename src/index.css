@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import 'normalize.css';
 
 body {
   margin: 0;
@@ -12,4 +12,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.feedback-options-container {
+  box-shadow: 2px 2px 2px gray;
+  border-radius: 16px;
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.button-style {
+  background-color: #6c6d91;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  height: 32px;
+  width: 60px;
+  border-radius: 16px;
+  margin-right: 8px;
+}
+
+.button-style:hover {
+  background-color: #acadb9;
 }
