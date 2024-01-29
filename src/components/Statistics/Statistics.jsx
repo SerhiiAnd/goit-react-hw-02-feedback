@@ -1,4 +1,3 @@
-// Statistics.js
 import React from 'react';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (

@@ -1,4 +1,3 @@
-// FeedbackOptions.js
 import React from 'react';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
